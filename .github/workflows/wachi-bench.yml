@@ -1,4 +1,4 @@
-name: Agent review
+name: Wachi bench review
 # Benchmark copy. Replayed pull requests carry kaipu-record's own `agent-review.yml` (Wachi
 # v1.2.0, the version that produced the 2026-10-31 field benchmark); that workflow is disabled in
 # this repository's Actions settings so that only this one runs. Reviews are started on demand
