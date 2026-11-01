@@ -11,9 +11,9 @@ another's comments:
 
 **Round 2** runs in fresh copies, so that per-repository memory (Pullfrog's learnings file,
 CodeRabbit's learnings) does not carry over:
-[kaipu-bench-wachi-v2](https://github.com/niway-dev/kaipu-bench-wachi-v2),
 [kaipu-bench-pullfrog-v2](https://github.com/niway-dev/kaipu-bench-pullfrog-v2),
 [kaipu-bench-coderabbit-v2](https://github.com/niway-dev/kaipu-bench-coderabbit-v2).
+Wachiman keeps no memory, so its extra runs stay in kaipu-bench-wachi on `head-r<k>` branches.
 
 It replays pull requests from the public repository
 [niway-dev/kaipu-record](https://github.com/niway-dev/kaipu-record), a desktop screen recorder
