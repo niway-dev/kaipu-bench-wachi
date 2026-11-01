@@ -9,6 +9,12 @@ another's comments:
 | [kaipu-bench-pullfrog](https://github.com/niway-dev/kaipu-bench-pullfrog) | [Pullfrog](https://pullfrog.com) | GitHub App installed by the owner; `.github/workflows/pullfrog.yml` on `main`, copied unchanged from kaipu-record |
 | [kaipu-bench-coderabbit](https://github.com/niway-dev/kaipu-bench-coderabbit) | [CodeRabbit](https://coderabbit.ai) | GitHub App installed by the owner; no workflow |
 
+**Round 2** runs in fresh copies, so that per-repository memory (Pullfrog's learnings file,
+CodeRabbit's learnings) does not carry over:
+[kaipu-bench-wachi-v2](https://github.com/niway-dev/kaipu-bench-wachi-v2),
+[kaipu-bench-pullfrog-v2](https://github.com/niway-dev/kaipu-bench-pullfrog-v2),
+[kaipu-bench-coderabbit-v2](https://github.com/niway-dev/kaipu-bench-coderabbit-v2).
+
 It replays pull requests from the public repository
 [niway-dev/kaipu-record](https://github.com/niway-dev/kaipu-record), a desktop screen recorder
 (Electron, TypeScript, Bun monorepo). Nothing here is for development: branches are never merged,
